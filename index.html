@@ -1,0 +1,116 @@
+<!-- https://www.youtube.com/watch?v=MCVkMmYL-aY -->
+<!-- 1.58.00 -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DanpuCoffee</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap" rel="stylesheet">
+
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Danpu<span>Coffee</span></a>
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i>
+        <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i>
+        </a>
+      </div>
+    </nav>
+
+    <section class="hero" id="home">
+      <main class="content">
+        <h1 style="text-indent: 10px;">Let's Drink <br> a <span>Coffee</span></h1>
+        <p style="text-indent: 10px;">Drinking a coffee with your <br> best friend will make you <br> feel happy.</p>
+        <a href="#" class="cta">Buy Now</a>
+      </main>
+    </section>
+
+    <section class="about" id="about">
+      <h2><span>About</span> Us</h2>
+      <div class="row">
+        <div class="about-img">
+          <img src="img/about-us2.jpg" alt="about-us2.jpg">
+        </div>
+        <div class="content">
+          <h3>Why you should choose DanpuCoffee?</h3>
+          <p style="text-indent: 10px;">We have Arabica coffee beans are considered the most high-quality variety. They're known for their smooth, complex flavor and distinct lack of bitterness.</p>
+          <p style="text-indent: 10px;">Because we are in Indonesia, we've the best quality of coffee here. Especially in Sukabumi.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu" id="menu">
+      <h2>Our <span>Menu</span></h2>
+      <p style="text-indent: 10px;">Coffee is a beverage prepared from roasted coffee beans. Darkly colored, bitter, and slightly acidic, coffee has a stimulating effect on humans, primarily due to its caffeine content. It has the highest sales in the world market for hot drinks.</p>
+      <div class="row">
+        <div class="menu-card">
+          <img class="menu-card-image" src="img/1.jpg" alt="1.jpg">
+          <h3 class="menu-card-title">Espresso</h3>
+          <p class="menu-card-price">IDR 10.000</p>
+        </div>
+        <div class="menu-card">
+          <img class="menu-card-image" src="img/2.jpg" alt="2.jpg">
+          <h3 class="menu-card-title">Latte</h3>
+          <p class="menu-card-price">IDR 15.000</p>
+        </div>
+        <div class="menu-card">
+          <img class="menu-card-image" src="img/3.jpg" alt="3.jpg">
+          <h3 class="menu-card-title">Mocha</h3>
+          <p class="menu-card-price">IDR 17.000</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2><span>Contact</span> Us</h2>
+      <p>We are at Sukabumi, West Java, Indonesia.</p>
+      <div class="row">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63369.78689705574!2d106.88229012348894!3d-6.9369274122827465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6848256c9e44f5%3A0x75ce9a1669c315d6!2sSukabumi%2C%20Sukabumi%20Regency%2C%20West%20Java!5e0!3m2!1sen!2sid!4v1679747324304!5m2!1sen!2sid" class="map" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <form action="" autocomplete="off">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="Input name..." required>
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="email" placeholder="Input email..." required>
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="number" placeholder="Input phone number..." required>
+          </div>
+          <button class="btn" type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="credit">
+        <p>Created by <a href="https://www.instagram.com/peaendeu" target="_blank">Pandu Prasasti </a>&copy;2023</p>
+      </div>
+    </footer>
+
+    <script>
+      feather.replace();
+    </script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
